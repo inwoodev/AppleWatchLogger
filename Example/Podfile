@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'AppleWatchLogger_Example' do
+  pod 'AppleWatchLogger', :path => '../'
+
+  target 'AppleWatchLogger_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
