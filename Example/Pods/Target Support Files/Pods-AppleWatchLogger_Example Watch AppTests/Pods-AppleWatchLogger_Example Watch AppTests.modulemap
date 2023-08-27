@@ -1,0 +1,6 @@
+framework module Pods_AppleWatchLogger_Example_Watch_AppTests {
+  umbrella header "Pods-AppleWatchLogger_Example Watch AppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'AppleWatchLogger'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of AppleWatchLogger.'
+  s.summary          = ' This library is designed to alleviate the challenges of debugging both Apple Watch and iOS apps concurrently.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -27,9 +27,8 @@ TODO: Add long description of the pod here.
   s.author           = { 'inwoodev' => 'dlsdn1207@gmail.com' }
   s.source           = { :git => 'https://github.com/inwoodev/AppleWatchLogger.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '10.0'
-
+  
+  s.watchos.deployment_target = '7.0'
   s.source_files = 'AppleWatchLogger/Classes/**/*'
   
   # s.resource_bundles = {

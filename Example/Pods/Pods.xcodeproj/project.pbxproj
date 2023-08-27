@@ -1,0 +1,801 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FA95BD251E6B63CC6AC2D61AA1B1573 /* Pods-AppleWatchLogger_Example Watch AppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 66150CF06ADEA386AECAE1259F33B9E7 /* Pods-AppleWatchLogger_Example Watch AppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		233565F04CA571FB3396C12373C30A32 /* WatchLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AECB63AF5F7179A957F4A19685B927 /* WatchLogView.swift */; };
+		2BF8AC60B5F82AF593513FE158EA1AEB /* AppleWatchLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3D610FC8D152682D3133ADD35A0ACF /* AppleWatchLogger.swift */; };
+		2D13E2C4A9998829BD2860792BEC5ACE /* WatchLogViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FD88DCDD73DA7FF4C29B355F0DCDE2 /* WatchLogViewModifier.swift */; };
+		2D8C7137C88EAB64CFAB95B69A768EC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46A003A25B2A7E6E95C30801E60AE0DD /* Foundation.framework */; };
+		3410ED39CF8C5AC2183C746B6321CF4F /* Pods-AppleWatchLogger_Example Watch AppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 383B1E2BB82E55C876042F99A6B8F488 /* Pods-AppleWatchLogger_Example Watch AppTests-dummy.m */; };
+		4C976AE9821153588D6088F824787876 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A199C382525659C32A3C75F9A3D68347 /* View+Extension.swift */; };
+		546409B5B8598F264F3BF6EDE537F95F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46A003A25B2A7E6E95C30801E60AE0DD /* Foundation.framework */; };
+		6FD23EFC7B2B30DDBB8A0D2D2B3E09FF /* AppleWatchLogger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B194AE4568CE8B567618D63520F8E08 /* AppleWatchLogger-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C3048BE968A80A5CBD682109A72CD3E /* Pods-AppleWatchLogger_Example Watch App-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C6AF02F499BE223B2052440E903D5AB1 /* Pods-AppleWatchLogger_Example Watch App-dummy.m */; };
+		C53E52AEEB5AC204B0818E69ED7C0C34 /* AssistiveTouchButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD86E32FD910956DA58CF46913FAA3F /* AssistiveTouchButton.swift */; };
+		D1B4F306165DBE5DB6F2A0EFF8E0EB2D /* AppleWatchLogger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E7C91893E257B96E06AD922DC8A550 /* AppleWatchLogger-dummy.m */; };
+		D44B79CF1D7AA1EE7528CE4EC9ADC578 /* Pods-AppleWatchLogger_Example Watch App-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 374F485142FA7D4487A7C5D6C25AB6CA /* Pods-AppleWatchLogger_Example Watch App-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F97FF3910F9220386EC61B43F110D901 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46A003A25B2A7E6E95C30801E60AE0DD /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16B465B3BCA2C072859F02755FB4004F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AACADD33F46F2DC8850499135075DE6E;
+			remoteInfo = AppleWatchLogger;
+		};
+		55F47870FB014AC6256AECA4A3188014 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75F707AE1AE63A04BF6C52BF304D6B6E;
+			remoteInfo = "Pods-AppleWatchLogger_Example Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CD86E32FD910956DA58CF46913FAA3F /* AssistiveTouchButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AssistiveTouchButton.swift; sourceTree = "<group>"; };
+		162AAFA76D7B2F1B05AF25A8B66C4FDB /* AppleWatchLogger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AppleWatchLogger.modulemap; sourceTree = "<group>"; };
+		17862DA70322C096A4073A265CFCCA64 /* AppleWatchLogger-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AppleWatchLogger-Info.plist"; sourceTree = "<group>"; };
+		1C0683878F7AA02B029B73901A72402F /* Pods-AppleWatchLogger_Example Watch App-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AppleWatchLogger_Example Watch App-acknowledgements.markdown"; sourceTree = "<group>"; };
+		21466E7507F64E60288CF1D0A1988BA2 /* AppleWatchLogger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AppleWatchLogger-prefix.pch"; sourceTree = "<group>"; };
+		24B5CBD4E3FB0B4427C736D80CFEEADB /* Pods-AppleWatchLogger_Example Watch AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppleWatchLogger_Example Watch AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		24FD88DCDD73DA7FF4C29B355F0DCDE2 /* WatchLogViewModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WatchLogViewModifier.swift; sourceTree = "<group>"; };
+		339F10F1193C75496A67389E08ACA33E /* AppleWatchLogger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AppleWatchLogger.debug.xcconfig; sourceTree = "<group>"; };
+		374F485142FA7D4487A7C5D6C25AB6CA /* Pods-AppleWatchLogger_Example Watch App-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AppleWatchLogger_Example Watch App-umbrella.h"; sourceTree = "<group>"; };
+		383B1E2BB82E55C876042F99A6B8F488 /* Pods-AppleWatchLogger_Example Watch AppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AppleWatchLogger_Example Watch AppTests-dummy.m"; sourceTree = "<group>"; };
+		3859190D121C9D395FC35C8E09C2E8F9 /* Pods-AppleWatchLogger_Example Watch AppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AppleWatchLogger_Example Watch AppTests.modulemap"; sourceTree = "<group>"; };
+		39E7C91893E257B96E06AD922DC8A550 /* AppleWatchLogger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AppleWatchLogger-dummy.m"; sourceTree = "<group>"; };
+		3B194AE4568CE8B567618D63520F8E08 /* AppleWatchLogger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AppleWatchLogger-umbrella.h"; sourceTree = "<group>"; };
+		3D62B379ED3500E0B35447F3471D127F /* Pods-AppleWatchLogger_Example Watch App-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AppleWatchLogger_Example Watch App-frameworks.sh"; sourceTree = "<group>"; };
+		41B1649A60A2AEF37B8344A2043E41C8 /* Pods-AppleWatchLogger_Example Watch App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppleWatchLogger_Example Watch App.release.xcconfig"; sourceTree = "<group>"; };
+		46A003A25B2A7E6E95C30801E60AE0DD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS7.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		58C0D1BAB8798FA7AB3E79B927B32D0E /* Pods-AppleWatchLogger_Example Watch AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppleWatchLogger_Example Watch AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		5D92F7F1DF5D614A508DAD4CF08CD508 /* Pods-AppleWatchLogger_Example Watch App-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AppleWatchLogger_Example Watch App-Info.plist"; sourceTree = "<group>"; };
+		66150CF06ADEA386AECAE1259F33B9E7 /* Pods-AppleWatchLogger_Example Watch AppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AppleWatchLogger_Example Watch AppTests-umbrella.h"; sourceTree = "<group>"; };
+		6FBAA7120D8CE70FA15A487C943BBB34 /* Pods-AppleWatchLogger_Example Watch App */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AppleWatchLogger_Example Watch App"; path = Pods_AppleWatchLogger_Example_Watch_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		799D1C8E98EC54E44ED50709738869BC /* Pods-AppleWatchLogger_Example Watch AppTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AppleWatchLogger_Example Watch AppTests-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A199C382525659C32A3C75F9A3D68347 /* View+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		A5BC519D285626CDFD7A0ED26F47B6ED /* Pods-AppleWatchLogger_Example Watch AppTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AppleWatchLogger_Example Watch AppTests"; path = Pods_AppleWatchLogger_Example_Watch_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEC4058C33CE59CB2B7278C488A777CB /* AppleWatchLogger */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AppleWatchLogger; path = AppleWatchLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5AECB63AF5F7179A957F4A19685B927 /* WatchLogView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WatchLogView.swift; sourceTree = "<group>"; };
+		C6AF02F499BE223B2052440E903D5AB1 /* Pods-AppleWatchLogger_Example Watch App-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AppleWatchLogger_Example Watch App-dummy.m"; sourceTree = "<group>"; };
+		C79ACCEC9432CAA023B4FB7B33AC5556 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C9E2C921472A4FF7933FF5EE2430CC73 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D0F2E43AB41EEDF9085EC1CC9824B615 /* Pods-AppleWatchLogger_Example Watch App-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AppleWatchLogger_Example Watch App-acknowledgements.plist"; sourceTree = "<group>"; };
+		D3E4258A23F3E3734A053F5CD1E89BEC /* Pods-AppleWatchLogger_Example Watch App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppleWatchLogger_Example Watch App.debug.xcconfig"; sourceTree = "<group>"; };
+		D60ED04BCD545B394208730B0774BEFE /* Pods-AppleWatchLogger_Example Watch App.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AppleWatchLogger_Example Watch App.modulemap"; sourceTree = "<group>"; };
+		DBBF874C7BC48CAF2036B5A74DEEA880 /* Pods-AppleWatchLogger_Example Watch AppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AppleWatchLogger_Example Watch AppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E26E7709A570598C4DC379C05ABB894C /* AppleWatchLogger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AppleWatchLogger.release.xcconfig; sourceTree = "<group>"; };
+		EBFA8D17F1DAE657DB5157935626A7ED /* Pods-AppleWatchLogger_Example Watch AppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AppleWatchLogger_Example Watch AppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F778069B0A9D05E1D6AF7591688419CB /* AppleWatchLogger.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AppleWatchLogger.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FB3D610FC8D152682D3133ADD35A0ACF /* AppleWatchLogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppleWatchLogger.swift; path = AppleWatchLogger/Classes/AppleWatchLogger.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4F638407CDDB6FB6FD0753ACAF385F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				546409B5B8598F264F3BF6EDE537F95F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D72A0D554E1C731E34907BF2ACF46F2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F97FF3910F9220386EC61B43F110D901 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA9F3EA295CBE68D7A32ABC3FAF6AB20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D8C7137C88EAB64CFAB95B69A768EC1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0475D9BBBAA56B3B6A5BEC6C956B28FF /* Pods-AppleWatchLogger_Example Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				3859190D121C9D395FC35C8E09C2E8F9 /* Pods-AppleWatchLogger_Example Watch AppTests.modulemap */,
+				EBFA8D17F1DAE657DB5157935626A7ED /* Pods-AppleWatchLogger_Example Watch AppTests-acknowledgements.markdown */,
+				DBBF874C7BC48CAF2036B5A74DEEA880 /* Pods-AppleWatchLogger_Example Watch AppTests-acknowledgements.plist */,
+				383B1E2BB82E55C876042F99A6B8F488 /* Pods-AppleWatchLogger_Example Watch AppTests-dummy.m */,
+				799D1C8E98EC54E44ED50709738869BC /* Pods-AppleWatchLogger_Example Watch AppTests-Info.plist */,
+				66150CF06ADEA386AECAE1259F33B9E7 /* Pods-AppleWatchLogger_Example Watch AppTests-umbrella.h */,
+				24B5CBD4E3FB0B4427C736D80CFEEADB /* Pods-AppleWatchLogger_Example Watch AppTests.debug.xcconfig */,
+				58C0D1BAB8798FA7AB3E79B927B32D0E /* Pods-AppleWatchLogger_Example Watch AppTests.release.xcconfig */,
+			);
+			name = "Pods-AppleWatchLogger_Example Watch AppTests";
+			path = "Target Support Files/Pods-AppleWatchLogger_Example Watch AppTests";
+			sourceTree = "<group>";
+		};
+		123D25506D09D7FCF7643E243E2E3EDE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0CD86E32FD910956DA58CF46913FAA3F /* AssistiveTouchButton.swift */,
+				A199C382525659C32A3C75F9A3D68347 /* View+Extension.swift */,
+				B5AECB63AF5F7179A957F4A19685B927 /* WatchLogView.swift */,
+				24FD88DCDD73DA7FF4C29B355F0DCDE2 /* WatchLogViewModifier.swift */,
+			);
+			name = View;
+			path = AppleWatchLogger/Classes/View;
+			sourceTree = "<group>";
+		};
+		1DC7239F986876B175653045C23D61F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEC4058C33CE59CB2B7278C488A777CB /* AppleWatchLogger */,
+				6FBAA7120D8CE70FA15A487C943BBB34 /* Pods-AppleWatchLogger_Example Watch App */,
+				A5BC519D285626CDFD7A0ED26F47B6ED /* Pods-AppleWatchLogger_Example Watch AppTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2849503129F2BB0801FFFED522182A10 /* Pods-AppleWatchLogger_Example Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				D60ED04BCD545B394208730B0774BEFE /* Pods-AppleWatchLogger_Example Watch App.modulemap */,
+				1C0683878F7AA02B029B73901A72402F /* Pods-AppleWatchLogger_Example Watch App-acknowledgements.markdown */,
+				D0F2E43AB41EEDF9085EC1CC9824B615 /* Pods-AppleWatchLogger_Example Watch App-acknowledgements.plist */,
+				C6AF02F499BE223B2052440E903D5AB1 /* Pods-AppleWatchLogger_Example Watch App-dummy.m */,
+				3D62B379ED3500E0B35447F3471D127F /* Pods-AppleWatchLogger_Example Watch App-frameworks.sh */,
+				5D92F7F1DF5D614A508DAD4CF08CD508 /* Pods-AppleWatchLogger_Example Watch App-Info.plist */,
+				374F485142FA7D4487A7C5D6C25AB6CA /* Pods-AppleWatchLogger_Example Watch App-umbrella.h */,
+				D3E4258A23F3E3734A053F5CD1E89BEC /* Pods-AppleWatchLogger_Example Watch App.debug.xcconfig */,
+				41B1649A60A2AEF37B8344A2043E41C8 /* Pods-AppleWatchLogger_Example Watch App.release.xcconfig */,
+			);
+			name = "Pods-AppleWatchLogger_Example Watch App";
+			path = "Target Support Files/Pods-AppleWatchLogger_Example Watch App";
+			sourceTree = "<group>";
+		};
+		473E5C4E52B25A6A079A5E1B0DBB2F1A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F778069B0A9D05E1D6AF7591688419CB /* AppleWatchLogger.podspec */,
+				C79ACCEC9432CAA023B4FB7B33AC5556 /* LICENSE */,
+				C9E2C921472A4FF7933FF5EE2430CC73 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		5CF220D25288EBED6D1E3B7AEE3E8274 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7ABCCF16C7D65D2D01670EF82A443DE5 /* watchOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5EAF29B6332809EA5443BBF723566E56 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F38C595802B61A4348546CDF5E3D9E60 /* AppleWatchLogger */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7ABCCF16C7D65D2D01670EF82A443DE5 /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				46A003A25B2A7E6E95C30801E60AE0DD /* Foundation.framework */,
+			);
+			name = watchOS;
+			sourceTree = "<group>";
+		};
+		9339D8FA424466A597C36CF7E3D52821 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2849503129F2BB0801FFFED522182A10 /* Pods-AppleWatchLogger_Example Watch App */,
+				0475D9BBBAA56B3B6A5BEC6C956B28FF /* Pods-AppleWatchLogger_Example Watch AppTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A30BBED7F99B495020315215CBA29E41 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				162AAFA76D7B2F1B05AF25A8B66C4FDB /* AppleWatchLogger.modulemap */,
+				39E7C91893E257B96E06AD922DC8A550 /* AppleWatchLogger-dummy.m */,
+				17862DA70322C096A4073A265CFCCA64 /* AppleWatchLogger-Info.plist */,
+				21466E7507F64E60288CF1D0A1988BA2 /* AppleWatchLogger-prefix.pch */,
+				3B194AE4568CE8B567618D63520F8E08 /* AppleWatchLogger-umbrella.h */,
+				339F10F1193C75496A67389E08ACA33E /* AppleWatchLogger.debug.xcconfig */,
+				E26E7709A570598C4DC379C05ABB894C /* AppleWatchLogger.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AppleWatchLogger";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				5EAF29B6332809EA5443BBF723566E56 /* Development Pods */,
+				5CF220D25288EBED6D1E3B7AEE3E8274 /* Frameworks */,
+				1DC7239F986876B175653045C23D61F4 /* Products */,
+				9339D8FA424466A597C36CF7E3D52821 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		F38C595802B61A4348546CDF5E3D9E60 /* AppleWatchLogger */ = {
+			isa = PBXGroup;
+			children = (
+				FB3D610FC8D152682D3133ADD35A0ACF /* AppleWatchLogger.swift */,
+				473E5C4E52B25A6A079A5E1B0DBB2F1A /* Pod */,
+				A30BBED7F99B495020315215CBA29E41 /* Support Files */,
+				123D25506D09D7FCF7643E243E2E3EDE /* View */,
+			);
+			name = AppleWatchLogger;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0D28E9A8C807144349F032756E927B82 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D44B79CF1D7AA1EE7528CE4EC9ADC578 /* Pods-AppleWatchLogger_Example Watch App-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E6F5123D8B09F1004D788CB5A325438 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FD23EFC7B2B30DDBB8A0D2D2B3E09FF /* AppleWatchLogger-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6CFB293B4818B8014773FE2211E96FD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FA95BD251E6B63CC6AC2D61AA1B1573 /* Pods-AppleWatchLogger_Example Watch AppTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6E6DE88502FCB7455E2A6C5308DE4624 /* Pods-AppleWatchLogger_Example Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34ACD9C9E3F220B415CC91532012FBEC /* Build configuration list for PBXNativeTarget "Pods-AppleWatchLogger_Example Watch AppTests" */;
+			buildPhases = (
+				F6CFB293B4818B8014773FE2211E96FD /* Headers */,
+				2683350594098FEDD4034FC9B2CE88DD /* Sources */,
+				D72A0D554E1C731E34907BF2ACF46F2A /* Frameworks */,
+				D332FC8988E13285145B78F0CE1BB232 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				592097E8118A105D7DD1935FA08554AE /* PBXTargetDependency */,
+			);
+			name = "Pods-AppleWatchLogger_Example Watch AppTests";
+			productName = Pods_AppleWatchLogger_Example_Watch_AppTests;
+			productReference = A5BC519D285626CDFD7A0ED26F47B6ED /* Pods-AppleWatchLogger_Example Watch AppTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		75F707AE1AE63A04BF6C52BF304D6B6E /* Pods-AppleWatchLogger_Example Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5265B94D966039792416F958808D532 /* Build configuration list for PBXNativeTarget "Pods-AppleWatchLogger_Example Watch App" */;
+			buildPhases = (
+				0D28E9A8C807144349F032756E927B82 /* Headers */,
+				5BC53B8F44E2B00C6C534E197903ABA2 /* Sources */,
+				FA9F3EA295CBE68D7A32ABC3FAF6AB20 /* Frameworks */,
+				8E4C07437714108897F17B3FAE3FDDFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C41B426C3162D2C621509B8A92A73DEB /* PBXTargetDependency */,
+			);
+			name = "Pods-AppleWatchLogger_Example Watch App";
+			productName = Pods_AppleWatchLogger_Example_Watch_App;
+			productReference = 6FBAA7120D8CE70FA15A487C943BBB34 /* Pods-AppleWatchLogger_Example Watch App */;
+			productType = "com.apple.product-type.framework";
+		};
+		AACADD33F46F2DC8850499135075DE6E /* AppleWatchLogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9895F4F236C24035761679FFA80B209 /* Build configuration list for PBXNativeTarget "AppleWatchLogger" */;
+			buildPhases = (
+				2E6F5123D8B09F1004D788CB5A325438 /* Headers */,
+				D96CDA5ADD042D0CDB76BE69D077032E /* Sources */,
+				D4F638407CDDB6FB6FD0753ACAF385F8 /* Frameworks */,
+				5163BDD974DE971F07964B8A4C8D5586 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppleWatchLogger;
+			productName = AppleWatchLogger;
+			productReference = AEC4058C33CE59CB2B7278C488A777CB /* AppleWatchLogger */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 1DC7239F986876B175653045C23D61F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AACADD33F46F2DC8850499135075DE6E /* AppleWatchLogger */,
+				75F707AE1AE63A04BF6C52BF304D6B6E /* Pods-AppleWatchLogger_Example Watch App */,
+				6E6DE88502FCB7455E2A6C5308DE4624 /* Pods-AppleWatchLogger_Example Watch AppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5163BDD974DE971F07964B8A4C8D5586 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E4C07437714108897F17B3FAE3FDDFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D332FC8988E13285145B78F0CE1BB232 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2683350594098FEDD4034FC9B2CE88DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3410ED39CF8C5AC2183C746B6321CF4F /* Pods-AppleWatchLogger_Example Watch AppTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BC53B8F44E2B00C6C534E197903ABA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C3048BE968A80A5CBD682109A72CD3E /* Pods-AppleWatchLogger_Example Watch App-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D96CDA5ADD042D0CDB76BE69D077032E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BF8AC60B5F82AF593513FE158EA1AEB /* AppleWatchLogger.swift in Sources */,
+				D1B4F306165DBE5DB6F2A0EFF8E0EB2D /* AppleWatchLogger-dummy.m in Sources */,
+				C53E52AEEB5AC204B0818E69ED7C0C34 /* AssistiveTouchButton.swift in Sources */,
+				4C976AE9821153588D6088F824787876 /* View+Extension.swift in Sources */,
+				233565F04CA571FB3396C12373C30A32 /* WatchLogView.swift in Sources */,
+				2D13E2C4A9998829BD2860792BEC5ACE /* WatchLogViewModifier.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		592097E8118A105D7DD1935FA08554AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AppleWatchLogger_Example Watch App";
+			target = 75F707AE1AE63A04BF6C52BF304D6B6E /* Pods-AppleWatchLogger_Example Watch App */;
+			targetProxy = 55F47870FB014AC6256AECA4A3188014 /* PBXContainerItemProxy */;
+		};
+		C41B426C3162D2C621509B8A92A73DEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AppleWatchLogger;
+			target = AACADD33F46F2DC8850499135075DE6E /* AppleWatchLogger */;
+			targetProxy = 16B465B3BCA2C072859F02755FB4004F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		413EFACC0E59555EA65FC5FB757DFC26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 339F10F1193C75496A67389E08ACA33E /* AppleWatchLogger.debug.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AppleWatchLogger/AppleWatchLogger-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AppleWatchLogger/AppleWatchLogger-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AppleWatchLogger/AppleWatchLogger.modulemap";
+				PRODUCT_MODULE_NAME = AppleWatchLogger;
+				PRODUCT_NAME = AppleWatchLogger;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		5A9A88B84365F575ED60258226F373B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3E4258A23F3E3734A053F5CD1E89BEC /* Pods-AppleWatchLogger_Example Watch App.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AppleWatchLogger_Example Watch App/Pods-AppleWatchLogger_Example Watch App-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AppleWatchLogger_Example Watch App/Pods-AppleWatchLogger_Example Watch App.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		A9C9DAE959DB8CD27E92281A0BD70652 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+		ADC229E8809DE00CA736E8793B535EEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41B1649A60A2AEF37B8344A2043E41C8 /* Pods-AppleWatchLogger_Example Watch App.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AppleWatchLogger_Example Watch App/Pods-AppleWatchLogger_Example Watch App-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AppleWatchLogger_Example Watch App/Pods-AppleWatchLogger_Example Watch App.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+		B2A88E3B3C47C8C491DCF7A83FEFA29E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E26E7709A570598C4DC379C05ABB894C /* AppleWatchLogger.release.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AppleWatchLogger/AppleWatchLogger-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AppleWatchLogger/AppleWatchLogger-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AppleWatchLogger/AppleWatchLogger.modulemap";
+				PRODUCT_MODULE_NAME = AppleWatchLogger;
+				PRODUCT_NAME = AppleWatchLogger;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+		B802EA7144B30EB874217915E39113FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		F1B7783328B8D0933CEB80D520620F29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24B5CBD4E3FB0B4427C736D80CFEEADB /* Pods-AppleWatchLogger_Example Watch AppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AppleWatchLogger_Example Watch AppTests/Pods-AppleWatchLogger_Example Watch AppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AppleWatchLogger_Example Watch AppTests/Pods-AppleWatchLogger_Example Watch AppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		FF794BAB5194A1A1B90A4B1EA57DCB82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58C0D1BAB8798FA7AB3E79B927B32D0E /* Pods-AppleWatchLogger_Example Watch AppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AppleWatchLogger_Example Watch AppTests/Pods-AppleWatchLogger_Example Watch AppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AppleWatchLogger_Example Watch AppTests/Pods-AppleWatchLogger_Example Watch AppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34ACD9C9E3F220B415CC91532012FBEC /* Build configuration list for PBXNativeTarget "Pods-AppleWatchLogger_Example Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1B7783328B8D0933CEB80D520620F29 /* Debug */,
+				FF794BAB5194A1A1B90A4B1EA57DCB82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B802EA7144B30EB874217915E39113FC /* Debug */,
+				A9C9DAE959DB8CD27E92281A0BD70652 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9895F4F236C24035761679FFA80B209 /* Build configuration list for PBXNativeTarget "AppleWatchLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				413EFACC0E59555EA65FC5FB757DFC26 /* Debug */,
+				B2A88E3B3C47C8C491DCF7A83FEFA29E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5265B94D966039792416F958808D532 /* Build configuration list for PBXNativeTarget "Pods-AppleWatchLogger_Example Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A9A88B84365F575ED60258226F373B4 /* Debug */,
+				ADC229E8809DE00CA736E8793B535EEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

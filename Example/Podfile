@@ -1,11 +1,11 @@
 use_frameworks!
 
-platform :ios, '10.0'
+platform :watchos, '7.0'
 
-target 'AppleWatchLogger_Example' do
+target 'AppleWatchLogger_Example Watch App' do
   pod 'AppleWatchLogger', :path => '../'
 
-  target 'AppleWatchLogger_Tests' do
+  target 'AppleWatchLogger_Example Watch AppTests' do
     inherit! :search_paths
 
     

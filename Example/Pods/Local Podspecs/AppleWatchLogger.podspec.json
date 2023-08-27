@@ -1,0 +1,22 @@
+{
+  "name": "AppleWatchLogger",
+  "version": "0.1.0",
+  "summary": "This library is designed to alleviate the challenges of debugging both Apple Watch and iOS apps concurrently.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/inwoodev/AppleWatchLogger",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "inwoodev": "dlsdn1207@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/inwoodev/AppleWatchLogger.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "watchos": "7.0"
+  },
+  "source_files": "AppleWatchLogger/Classes/**/*"
+}

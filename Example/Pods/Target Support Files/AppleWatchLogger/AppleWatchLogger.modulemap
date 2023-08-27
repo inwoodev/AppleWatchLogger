@@ -1,0 +1,6 @@
+framework module AppleWatchLogger {
+  umbrella header "AppleWatchLogger-umbrella.h"
+
+  export *
+  module * { export * }
+}

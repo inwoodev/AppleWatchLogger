@@ -1,0 +1,16 @@
+PODS:
+  - AppleWatchLogger (0.1.0)
+
+DEPENDENCIES:
+  - AppleWatchLogger (from `../`)
+
+EXTERNAL SOURCES:
+  AppleWatchLogger:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AppleWatchLogger: 95db9a534eb65615916e534e5a32c2494dd95699
+
+PODFILE CHECKSUM: 244dfb9f6e73b191cfdc9d31cfa97065526eb06d
+
+COCOAPODS: 1.11.2
