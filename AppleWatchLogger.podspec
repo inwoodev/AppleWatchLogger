@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'AppleWatchLogger'
   s.version          = '0.1.0'
-  s.summary          = ' This library is designed to alleviate the challenges of debugging both Apple Watch and iOS apps concurrently.'
+  s.summary          = 'This library is designed to alleviate the challenges of debugging both Apple Watch and iOS apps concurrently.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+This library is designed to alleviate the challenges of debugging both Apple Watch and iOS apps concurrently.A translucent debugging list that remains visible alongside the main app interface.The feature allows developers to monitor and interact with debugging information conveniently on the other hand simultaneously engaging with the primary application on the Apple Watch. In addition, a draggable assistive touch button that empowers developers to access more comprehensive log information effortlessly.
                        DESC
 
   s.homepage         = 'https://github.com/inwoodev/AppleWatchLogger'
@@ -30,6 +30,7 @@ TODO: Add long description of the pod here.
   
   s.watchos.deployment_target = '7.0'
   s.source_files = 'AppleWatchLogger/Classes/**/*'
+  s.swift_version = '5.0'
   
   # s.resource_bundles = {
   #   'AppleWatchLogger' => ['AppleWatchLogger/Assets/*.png']
