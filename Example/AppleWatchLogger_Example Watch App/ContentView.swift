@@ -25,7 +25,6 @@ struct ContentView: View {
         .multilineTextAlignment(.center)
     }
     .onAppear {
-      print("content view on appear")
       DispatchQueue.main.async {
         AppleWatchLogger.info(message: "I developed this library in response to the difficulties I faced while attempting to debug both an Apple Watch app and an iOS app concurrently.")
       }
