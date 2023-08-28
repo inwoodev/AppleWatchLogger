@@ -29,7 +29,7 @@ This library is designed to alleviate the challenges of debugging both Apple Wat
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   
   s.watchos.deployment_target = '7.0'
-  s.source_files = 'AppleWatchLogger/Classes/**/*'
+  s.source_files = 'Sources/AppleWatchLogger/Classes/**/*'
   s.swift_version = '5.0'
   
   # s.resource_bundles = {

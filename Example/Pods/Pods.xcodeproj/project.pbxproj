@@ -62,22 +62,22 @@
 		66150CF06ADEA386AECAE1259F33B9E7 /* Pods-AppleWatchLogger_Example Watch AppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AppleWatchLogger_Example Watch AppTests-umbrella.h"; sourceTree = "<group>"; };
 		6FBAA7120D8CE70FA15A487C943BBB34 /* Pods-AppleWatchLogger_Example Watch App */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AppleWatchLogger_Example Watch App"; path = Pods_AppleWatchLogger_Example_Watch_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		799D1C8E98EC54E44ED50709738869BC /* Pods-AppleWatchLogger_Example Watch AppTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AppleWatchLogger_Example Watch AppTests-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A199C382525659C32A3C75F9A3D68347 /* View+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
 		A5BC519D285626CDFD7A0ED26F47B6ED /* Pods-AppleWatchLogger_Example Watch AppTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AppleWatchLogger_Example Watch AppTests"; path = Pods_AppleWatchLogger_Example_Watch_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEC4058C33CE59CB2B7278C488A777CB /* AppleWatchLogger */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AppleWatchLogger; path = AppleWatchLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5AECB63AF5F7179A957F4A19685B927 /* WatchLogView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WatchLogView.swift; sourceTree = "<group>"; };
 		C6AF02F499BE223B2052440E903D5AB1 /* Pods-AppleWatchLogger_Example Watch App-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AppleWatchLogger_Example Watch App-dummy.m"; sourceTree = "<group>"; };
-		C79ACCEC9432CAA023B4FB7B33AC5556 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		C9E2C921472A4FF7933FF5EE2430CC73 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C79ACCEC9432CAA023B4FB7B33AC5556 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		C9E2C921472A4FF7933FF5EE2430CC73 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D0F2E43AB41EEDF9085EC1CC9824B615 /* Pods-AppleWatchLogger_Example Watch App-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AppleWatchLogger_Example Watch App-acknowledgements.plist"; sourceTree = "<group>"; };
 		D3E4258A23F3E3734A053F5CD1E89BEC /* Pods-AppleWatchLogger_Example Watch App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppleWatchLogger_Example Watch App.debug.xcconfig"; sourceTree = "<group>"; };
 		D60ED04BCD545B394208730B0774BEFE /* Pods-AppleWatchLogger_Example Watch App.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AppleWatchLogger_Example Watch App.modulemap"; sourceTree = "<group>"; };
 		DBBF874C7BC48CAF2036B5A74DEEA880 /* Pods-AppleWatchLogger_Example Watch AppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AppleWatchLogger_Example Watch AppTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E26E7709A570598C4DC379C05ABB894C /* AppleWatchLogger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AppleWatchLogger.release.xcconfig; sourceTree = "<group>"; };
 		EBFA8D17F1DAE657DB5157935626A7ED /* Pods-AppleWatchLogger_Example Watch AppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AppleWatchLogger_Example Watch AppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F778069B0A9D05E1D6AF7591688419CB /* AppleWatchLogger.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AppleWatchLogger.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		FB3D610FC8D152682D3133ADD35A0ACF /* AppleWatchLogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppleWatchLogger.swift; path = AppleWatchLogger/Classes/AppleWatchLogger.swift; sourceTree = "<group>"; };
+		F778069B0A9D05E1D6AF7591688419CB /* AppleWatchLogger.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AppleWatchLogger.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FB3D610FC8D152682D3133ADD35A0ACF /* AppleWatchLogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppleWatchLogger.swift; path = Sources/AppleWatchLogger/Classes/AppleWatchLogger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,7 +133,7 @@
 				24FD88DCDD73DA7FF4C29B355F0DCDE2 /* WatchLogViewModifier.swift */,
 			);
 			name = View;
-			path = AppleWatchLogger/Classes/View;
+			path = Sources/AppleWatchLogger/Classes/View;
 			sourceTree = "<group>";
 		};
 		1DC7239F986876B175653045C23D61F4 /* Products */ = {
@@ -549,8 +549,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 				WATCHOS_DEPLOYMENT_TARGET = 7.0;

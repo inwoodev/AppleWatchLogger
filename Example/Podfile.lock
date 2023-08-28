@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AppleWatchLogger: 95db9a534eb65615916e534e5a32c2494dd95699
+  AppleWatchLogger: 06da789ab3cc00607b8c2a362f4d3e2fdcb58c15
 
 PODFILE CHECKSUM: 244dfb9f6e73b191cfdc9d31cfa97065526eb06d
 
