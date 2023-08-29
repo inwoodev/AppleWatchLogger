@@ -82,6 +82,7 @@ struct WatchLogView: View {
       }
       
       VStack {
+        errorView(logEvent.error)
         
         Divider().frame(height: 1)
         
@@ -132,6 +133,20 @@ struct WatchLogView: View {
       }
     }
     .lineLimit(1)
+  }
+  
+  private func errorView(_ error: Error?) -> some View {
+    VStack {
+      if let error = error {
+        Group {
+          boldText("Error:")
+          Text("\(error.localizedDescription)")
+        }
+        .frame(maxWidth: .infinity, alignment: .leading)
+      } else {
+        EmptyView()
+      }
+    }
   }
   
   private func boldText(_ text: String) -> Text {
