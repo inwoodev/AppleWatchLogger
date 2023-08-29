@@ -2,6 +2,8 @@
 ![Static Badge](https://img.shields.io/badge/platform-watchOS-blue)
 ![Static Badge](https://img.shields.io/badge/watchOS-7.0%2B-blue)
 ![Static Badge](https://img.shields.io/badge/Cocoapods-compatible-green)
+![Static Badge](https://img.shields.io/badge/SPM-compatible-green)
+
 
 ## Introducing Apple Watch Logger
 I developed this library in response to the difficulties I faced while attempting to debug both an Apple Watch app and an iOS app concurrently.
@@ -26,7 +28,9 @@ In addition, the library offers a draggable assistive touch button that empowers
 Like conventional loggers, the appleWatchLogger also offers a range of message levels. These levels are distinguishable through both color emoji and distinct text identifiers. You are welcome to utilize this functionality as per your requirements and preferences. Whether you need to categorize messages for different purposes or ensure clarity in the log display, the flexibility of message levels is at your disposal to enhance your debugging experience. Feel free to take advantage of this feature in a manner that aligns with your convenience and development objectives.
 
 ## Installation
-
+<details>
+<summary>Cocoapods</summary>
+</br>
 AppleWatchLogger is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
@@ -34,14 +38,24 @@ it, simply add the following line to your Podfile:
 pod 'AppleWatchLogger'
 ```
 
-
 #### **Be careful**
 Ensure that you add the line pod 'AppleWatchLogger' to the **watch target** in your Podfile. Otherwise, you might encounter errors such as the following:
 
 ```ruby
-[!] The platform of the target `YourProject` is not compatible with `AppleWatchLogger (0.1.0)`, which does not support `iOS`.
+[!] The platform of the target `YourProject` is not compatible with `AppleWatchLogger`, which does not support `iOS`.
 
 ```
+</details>
+
+<details> 
+<summary>Swift Package Manager</summary>
+</br>
+  1. You can add AppleWatchLogger to an Xcode project by adding it as a package dependency.</br>
+  2. From the File menu, select Add Packages...</br>
+  3. Enter "https://github.com/inwoodev/AppleWatchLogger.git" into the package repository URL text field</br>
+  4. [Important] Make sure you add the packate to watch app target
+<img width="644" alt="Screenshot 2023-08-29 at 10 40 57 PM" src="https://github.com/inwoodev/AppleWatchLogger/assets/69072471/f007dbee-4fac-4765-8a77-046465f48e8f">
+</details>
 
 ## Usage
 
