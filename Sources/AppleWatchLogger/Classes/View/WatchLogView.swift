@@ -78,43 +78,47 @@ struct WatchLogView: View {
         }
         .padding(.top, 10)
         
+        Divider().frame(height: 1)
+      }
+      
+      VStack {
         
-        Rectangle()
-          .frame(height: 1)
+        Divider().frame(height: 1)
         
-        Text("Description:")
-          .frame(maxWidth: .infinity, alignment: .leading)
-        Text("\(logEvent.message)")
-          .frame(maxWidth: .infinity, alignment: .leading)
+        Group {
+          boldText("Description:")
+          
+          Text("\(logEvent.message)")
+        }
+        .frame(maxWidth: .infinity, alignment: .leading)
         
-        Rectangle()
-          .frame(height: 1)
+        Divider().frame(height: 1)
         
-        HStack {
-          Text("Date:")
-          Spacer()
-          Text("\(logEvent.dateString)")
+        Group {
+          HStack {
+            boldText("Date:")
+            Spacer()
+            Text("\(logEvent.dateString)")
+          }
         }
         
-        
-        Rectangle()
-          .frame(height: 1)
+        Divider().frame(height: 1)
         
         HStack {
-          Text("Time:")
+          boldText("Time:")
+          
           Spacer()
           Text("\(logEvent.timeString)")
         }
         
-        Rectangle()
-          .frame(height: 1)
+        Divider().frame(height: 1)
         
-        Text("File: \(logEvent.file.description)[Line:\(logEvent.line)]")
-          .frame(
-            maxWidth: .infinity,
-            alignment: .leading
-          )
-        
+        Group {
+          boldText("File:")
+          Text(logEvent.file.description)
+          Text("[Line:\(logEvent.line)]")
+        }
+        .frame(maxWidth: .infinity,alignment: .leading)
       }
     }
   }
@@ -128,6 +132,11 @@ struct WatchLogView: View {
       }
     }
     .lineLimit(1)
+  }
+  
+  private func boldText(_ text: String) -> Text {
+    return Text(text)
+      .fontWeight(.bold)
   }
 }
 
