@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AppleWatchLogger'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'This library is designed to alleviate the challenges of debugging both Apple Watch and iOS apps concurrently.'
 
 # This description is used to generate tags and improve search results.
