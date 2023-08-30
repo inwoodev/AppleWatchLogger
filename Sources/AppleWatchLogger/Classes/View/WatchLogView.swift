@@ -42,6 +42,7 @@ struct WatchLogView: View {
               selectedLogEvent = logEvent
             } label: {
               logRowView(of: logEvent)
+                .frame(maxWidth: .infinity, alignment: .leading)
             }
 
           }
@@ -71,15 +72,15 @@ struct WatchLogView: View {
   private func logDetailView(_ logEvent: ObservableLogger.Event) -> some View {
     ScrollView {
       VStack {
-        HStack(alignment: .top) {
+        Group {
           Text("\(logEvent.level.emoji.description) [\(logEvent.level.rawValue)]")
-          Spacer()
-          Text("\(logEvent.title ?? "")")
+            .padding(.bottom, 3)
+          boldText("\(logEvent.title ?? "")")
         }
-        .padding(.top, 10)
-        
-        Divider().frame(height: 1)
+        .frame(maxWidth: .infinity, alignment: .leading)
       }
+      
+      Divider().frame(height: 1)
       
       VStack {
         errorView(logEvent.error)
@@ -126,10 +127,14 @@ struct WatchLogView: View {
   
   private func logRowView(of logEvent: ObservableLogger.Event) -> some View {
     VStack(alignment: .leading) {
-      Text("🕓 \(logEvent.timeString)")
+      HStack {
+        Text("🕓")
+        Text("\(logEvent.timeString)")
+      }
       
       HStack {
-        Text("\(logEvent.level.emoji.description) \(logEvent.title ?? logEvent.message)")
+        Text("\(logEvent.level.emoji.description)")
+        Text("\(logEvent.title ?? logEvent.message)")
       }
     }
     .lineLimit(1)
