@@ -100,7 +100,7 @@ final public class ObservableLogger: ObservableObject {
   public func log(
     level: Level,
     title: String? = nil,
-    message: String,
+    message: Any,
     error: Error? = nil,
     _ file: StaticString = #fileID,
     _ line: Int = #line
@@ -125,7 +125,7 @@ final public class ObservableLogger: ObservableObject {
       Event(
         level: level,
         title: title,
-        message: message,
+        message: "\(message)",
         error: error,
         date: .init(),
         file,
@@ -136,7 +136,7 @@ final public class ObservableLogger: ObservableObject {
   
   public func verbose(
     title: String? = nil,
-    message: String,
+    message: Any,
     _ file: StaticString = #fileID,
     _ line: Int = #line
   ) {
@@ -151,7 +151,7 @@ final public class ObservableLogger: ObservableObject {
   
   public func success(
     title: String? = nil,
-    message: String,
+    message: Any,
     _ file: StaticString = #fileID,
     _ line: Int = #line
   ) {
@@ -166,7 +166,7 @@ final public class ObservableLogger: ObservableObject {
   
   public func unsure(
     title: String? = nil,
-    message: String,
+    message: Any,
     error: Error?,
     _ file: StaticString = #fileID,
     _ line: Int = #line
@@ -183,7 +183,7 @@ final public class ObservableLogger: ObservableObject {
   
   public func info(
     title: String? = nil,
-    message: String,
+    message: Any,
     _ file: StaticString = #fileID,
     _ line: Int = #line
   ) {
@@ -198,7 +198,7 @@ final public class ObservableLogger: ObservableObject {
   
   public func warning(
     title: String? = nil,
-    message: String,
+    message: Any,
     _ file: StaticString = #fileID,
     _ line: Int = #line
   ) {
@@ -213,7 +213,7 @@ final public class ObservableLogger: ObservableObject {
   
   public func error(
     title: String? = nil,
-    message: String,
+    message: Any,
     error: Error?,
     _ file: StaticString = #fileID,
     _ line: Int = #line
@@ -230,7 +230,7 @@ final public class ObservableLogger: ObservableObject {
   
   public func fatal(
     title: String? = nil,
-    message: String,
+    message: Any,
     error: Error?,
     _ file: StaticString = #fileID,
     _ line: Int = #line
