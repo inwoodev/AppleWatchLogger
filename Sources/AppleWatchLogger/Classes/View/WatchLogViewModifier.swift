@@ -34,6 +34,7 @@ public struct WatchLogViewModifier: ViewModifier {
             isLogMainView = false
           }
         })
+      .allowsHitTesting(isLogMainView ? true : false)
       
       AssistiveTouchButton(
         opacity: isLogMainView ? 0.0 : self.draggableButtonOpacity
